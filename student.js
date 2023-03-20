@@ -1,19 +1,21 @@
+//prompt user to input student marks and grade them to 'A','B','C','D' etc
+
 const prompt=require("prompt-sync")();
 
 function studentMarks(){
     const input = prompt('Please enter student marks');
     let grade;
 
-        if (typeof(value) === 'number'){
-            if (value > 79){
+        if (typeof(input) === 'number'){
+            if (input > 79){
                 const grade = console.log ('A');
-            } else if (value >60 && value <=79){
+            } else if (input >60 && value <=79){
                 const grade = console.log ('B');
-            } else if (value > 59 && value <= 49){
+            } else if (input > 59 && value <= 49){
                 const grade = console.log ('C');
-            } else if (value > 40 && value <= 49){
+            } else if (input > 40 && value <= 49){
                 const grade = console.log ('D');
-            } else if (value > 40){
+            } else if (input > 40){
                 const grade = console.log ('E');
             }
         }

@@ -1,3 +1,5 @@
+
+//speed of a car above or below speed limit
 function car(speed){
     let point;
 
